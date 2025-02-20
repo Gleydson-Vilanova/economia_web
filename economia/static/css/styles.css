@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.left-section {
+    background-color: #d3d3d3; /* Cinza bem claro */
+    color: #000000;
+}
+
+.e-juri {
+    font-family: 'Audiowide', cursive;
+}
+
+.right-section {
+    background-color: #f5f5f5; /* Cinza ainda mais claro */
+}

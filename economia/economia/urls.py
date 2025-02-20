@@ -20,8 +20,8 @@ from django.contrib.auth import views as auth_views
 from usuarios import views
 
 urlpatterns = [
-    #path('', views.home, name='login'),
-    path('', auth_views.LoginView.as_view(template_name='templates/login.html'), name='login'),
+    path('', views.home, name='login'),
+    #path('', auth_views.LoginView.as_view(template_name='templates/login.html'), name='login'),
 
     path('admin/', admin.site.urls),
 
